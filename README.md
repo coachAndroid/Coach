@@ -13,7 +13,8 @@ Please refer to the paper “Classification based Architectural Patterns Detecti
 Six sheets in “Dataset.xlsx” file: 
 - “apps” contains the names of the apps with the applied patterns in the form of “app_name |pattern”
 - “Model” contains the names of the apps followed by their model classes in the form of “app_name|model_class_1|model_class_2| … |”
-- The other sheets (“Controller”, “Presenter”, “ViewModel”,“View”) contain code metrics of all the classes with role in MVC based patterns in the dataset in the form of “app_name|class_name|NLIE|NLCEH|NNLCEH|NDCM|NICM|npath_complexity|lack_of_cohesion_in_methods|number_of_methods|depth_of_inheritance
-|coupling_between_object_classes|class_complexity|number_of_attributes|number_of_implemented_interfaces”. For example, “Controller” sheet contains all classes with Controller role.
+- The other sheets (“Controller”, “Presenter”, “ViewModel”,“View”) contain code metrics of all the classes with specific roles in MVC based patterns. For example, “Controller” sheet contains all classes with Controller role. The form used is : “app_name|class_name|NLIE|NLCEH|NNLCEH|NDCM|NICM|npath_complexity
+|lack_of_cohesion_in_methods|number_of_methods|depth_of_inheritance
+|coupling_between_object_classes|class_complexity|number_of_attributes|number_of_implemented_interfaces”. 
 
 “Validation.xlsx” file contains the names of the apps with applied patterns in the form of “app_name |pattern”.
